@@ -5,8 +5,6 @@ const button = document.querySelector('button');
 const email = document.querySelector('#email')
 const regex = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/
 
-console.log(email.nextElementSibling.innerHTML)
-
 button.addEventListener('click', (e) => {
     const validateEmpty = () => {
         inputs.forEach((input, index) => {
